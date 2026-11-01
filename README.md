@@ -8,21 +8,21 @@
 
 > **Tagline:** One simple cockpit. Every sales chat & channel. Zero stockouts.  
 > **Course / Context:** Developed for the **MDMIE01 Entrepreneurship Project**.  
-> 🌐 **Live Deployed Application:** **[https://sellsync-o3kv.onrender.com/](https://sellsync-o3kv.onrender.com/)**
+> **Live Deployed Application:** **[https://sellsync-o3kv.onrender.com/](https://sellsync-o3kv.onrender.com/)**
 
 ---
 
-## 🌟 Live Demo & Quick Links
+## Live Demo and Quick Links
 
 | Service | Link | Description |
 |---|---|---|
-| 🚀 **Live Production App** | **[sellsync-o3kv.onrender.com](https://sellsync-o3kv.onrender.com/)** | Fully deployed and interactive cloud version hosted on Render |
-| 💻 **Local Web UI** | `http://127.0.0.1:5173` | Local Vite + React frontend |
-| 📑 **API Documentation** | `http://127.0.0.1:8000/docs` | Interactive Swagger API docs (FastAPI) |
+| **Live Production App** | **[sellsync-o3kv.onrender.com](https://sellsync-o3kv.onrender.com/)** | Fully deployed and interactive cloud version hosted on Render |
+| **Local Web UI** | `http://127.0.0.1:5173` | Local Vite + React frontend |
+| **API Documentation** | `http://127.0.0.1:8000/docs` | Interactive Swagger API docs (FastAPI) |
 
 ---
 
-## 📖 What is SellSync?
+## What is SellSync?
 
 **SellSync** is a unified, lightweight commerce operating cockpit engineered specifically for **Indian micro-sellers**: Instagram boutiques, home bakers, social commerce thrift resellers, and handmade artisan studios who operate their businesses primarily through WhatsApp, Instagram DMs, regional marketplaces, and direct UPI transfers.
 
@@ -38,38 +38,38 @@ SellSync replaces that chaos with a transparent, low-cognitive-load cockpit desi
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 1. 💬 Deterministic WhatsApp Chat-to-Order Parser
+### 1. Deterministic WhatsApp Chat-to-Order Parser
 * Converts unstructured, messy customer messages into structured orders with 1 click.
 * **Regex-Powered Local Extraction**: Detects Indian phone numbers (`+91`, 10 digits), 6-digit Indian PIN codes, destination cities, customer names, and catalog item SKUs.
 * **100% Local & Private**: Runs directly on the device with zero cloud API dependencies or customer data leakage.
 
-### 2. 📦 Single-Source-of-Truth Inventory Engine
+### 2. Single-Source-of-Truth Inventory Engine
 * Connects all sales channels (WhatsApp, Instagram, Meesho, Direct) back to a unified stock pool:
   $$\text{Available Stock} = \text{Stock on Hand} - \text{Reserved Stock}$$
 * Stock is automatically reserved upon order creation and committed upon dispatch.
 * Fast 1-tap `+` / `-` stock steppers for immediate physical stock counts from mobile devices.
 
-### 3. 💳 UPI Reconciliation & Dynamic QR Generator
+### 3. UPI Reconciliation & Dynamic QR Generator
 * **Payment Match Helper**: Cross-checks bank SMS amounts and UTR reference numbers against pending orders to flag exact matches, shortfalls, or overpayments.
 * **NPCI-Compliant QR Codes**: Dynamically generates `upi://pay` QR codes with custom order references and pre-filled amounts.
 * **WhatsApp Deep Links**: Formats instant payment reminder messages that open customer WhatsApp chats directly.
 
-### 4. 🚚 Dual Fulfillment Routing
+### 4. Dual Fulfillment Routing
 * **Parcel Couriers (Delhivery, BlueDart, India Post, Porter)**: One-click standardized address clipboard copying and printable 4x6" shipping label generation.
 * **Food & Fresh Delivery (Swiggy / Zomato)**: Dedicated kitchen prep states and rider handover OTP confirmation.
 
-### 5. 📊 Day-End Close Reconciliation
+### 5. Day-End Close Reconciliation
 * Summarizes total collected revenue, pending payments, dispatched parcels, and daily order volumes.
 * One-click download of the day's financial transaction ledger in CSV format.
 
-### 6. 🌐 Bilingual English & Hindi Support
+### 6. Bilingual English and Hindi Support
 * Instant toggleable interface between **English** and **Hindi (`[EN | हिंदी]`)** with localized terminology tailored for everyday Indian retail workflows.
 
 ---
 
-## 👥 Realistic Micro-Seller Personas
+## Realistic Micro-Seller Personas
 
 SellSync comes pre-configured with 4 distinct micro-seller personas. Switch between them instantly using the **Persona Switcher** in the navigation bar:
 
@@ -84,7 +84,7 @@ SellSync comes pre-configured with 4 distinct micro-seller personas. Switch betw
 
 ---
 
-## 🏗️ Technology Stack
+## Technology Stack
 
 ### Frontend
 * **Framework:** React 18 with TypeScript
@@ -104,7 +104,7 @@ SellSync comes pre-configured with 4 distinct micro-seller personas. Switch betw
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 SellSync_Local/
@@ -139,7 +139,7 @@ SellSync_Local/
 
 ---
 
-## 💻 Local Setup & Development
+## Local Setup and Development
 
 ### Prerequisites
 * **Python 3.10+**
@@ -181,7 +181,7 @@ npm run dev
 
 ---
 
-## 🧪 Automated Testing
+## Automated Testing
 
 The backend includes 24 automated unit and integration tests verifying inventory math, order state transitions, payment validation, and chat extraction.
 
@@ -193,14 +193,14 @@ cd backend
 
 ---
 
-## 🌐 Deployment (Render)
+## Deployment (Render)
 
 SellSync is deployed and accessible on Render:
 * **Production URL:** [https://sellsync-o3kv.onrender.com/](https://sellsync-o3kv.onrender.com/)
 
 ---
 
-## 🤝 Academic & Entrepreneurship Integrity
+## Academic and Entrepreneurship Integrity
 
 SellSync was built for the **MDMIE01 Entrepreneurship Project** under strict integrity principles:
 * **Local Privacy First:** No external third-party tracking or customer data leakage.
